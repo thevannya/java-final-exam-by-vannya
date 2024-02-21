@@ -3,7 +3,7 @@ package Shopping;
 
 public class Customer implements DiscountRate {
     private String customerName;
-    private String customerType; // Assume valid types are "Premium", "Gold", "Silver", "Normal"
+    private String customerType; // "Premium", "Gold", "Silver", "Normal"
 
     public Customer(String customerName, String customerType) {
         this.customerName = customerName;

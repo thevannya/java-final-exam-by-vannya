@@ -32,8 +32,9 @@ public class Sale {
     }
 
     public double getTotalExpense() {
-        return (serviceExpense - serviceExpense * customer.getServiceMemberDiscount()) +
-               (productExpense - productExpense * customer.getProductMemberDiscount());
+        double TotalExpense;
+        TotalExpense = (serviceExpense - serviceExpense * customer.getServiceMemberDiscount()) + (productExpense - productExpense * customer.getProductMemberDiscount());
+        return  TotalExpense;
     }
 
     public void displayInfo() {
